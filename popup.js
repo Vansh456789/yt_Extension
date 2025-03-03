@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.body.addEventListener("click", (event) => {
-      event.stopPropagation(); // Keeps popup open even when clicking outside
+      event.stopPropagation(); 
   });
 });
 
@@ -85,22 +85,17 @@ function displayTimestamps(videoId) {
           timestampButton.style.display = "block";
 
 
-          timestampButton.style.borderRadius = "10px"; // Make timestamp buttons rounded
-          timestampButton.style.transition = "background 0.3s ease"; // Smooth hover effect
+          timestampButton.style.borderRadius = "10px"; 
+          timestampButton.style.transition = "background 0.3s ease"; 
 
           timestampButton.addEventListener("mouseover", () => {
-          timestampButton.style.background =rgb(245, 158, 59); // Lighten on hover
+          timestampButton.style.background =rgb(245, 158, 59); 
           });
 
           timestampButton.addEventListener("mouseout", () => {
-          timestampButton.style.background =rgb(247, 169, 52); // Revert back
+          timestampButton.style.background =rgb(247, 169, 52); 
           });
-
-
-
-
-
-
+          
           timestampButton.style.width = "100%";
           timestampButton.style.margin = "5px 0";
           timestampButton.style.background = "#ff9800";
