@@ -2,11 +2,17 @@ YouTube Timestamp Saver
 A Chrome extension to save and organize timestamps while watching YouTube videos.
 
 
+
 ![image](https://github.com/user-attachments/assets/15348925-1f15-4567-94d4-1e2922ab9333)
+
 ![image](https://github.com/user-attachments/assets/f74ef2f4-1f83-48b1-8d4e-00d4cfa4b68b)
+
 ![image](https://github.com/user-attachments/assets/0e25aae7-bfe8-48e6-b9b9-433652e17cd1)
+
 ![image](https://github.com/user-attachments/assets/51cb4d6a-fdc0-494f-8146-e6669c836f29)
+
 ![image](https://github.com/user-attachments/assets/e798901f-12b2-45a7-bf77-4e224465d73c)
+
 
 
 
