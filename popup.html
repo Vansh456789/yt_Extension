@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Timestamps</title>
+    <style>
+        body {
+            width: 320px;
+            background: linear-gradient(135deg, #dc96f8, #a8f7fa); /* Lighter Blue Shade */
+            color: white;
+            font-family: "Arial", sans-serif;
+            padding: 15px;
+            border-radius: 15px; /* Increase border radius */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Smooth shadow */
+        }
+        
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #f754a0;
+            color: white;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px; /* More rounded buttons */
+            transition: background 0.3s ease;
+        }
+        
+        button:hover {
+            background: #ff6699;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+        li {
+            background: rgba(255, 255, 255, 0.2);
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        li:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <h3>YouTube Timestamp Saver</h3>
+    <input type="text" id="noteInput" placeholder="Add a note (optional)">
+    <button id="saveTimestamp">Save Timestamp</button>
+    <h4>Saved Timestamps:</h4>
+    <ul id="timestampsList"></ul>
+    <script src="popup.js"></script>
+</body>
+</html>
